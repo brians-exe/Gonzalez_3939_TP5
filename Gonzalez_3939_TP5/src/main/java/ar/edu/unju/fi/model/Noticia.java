@@ -8,6 +8,8 @@ import java.time.LocalDate;
 import org.springframework.stereotype.Component;
 
 /**
+ * Clase que permite representar a un objeto de tipo noticia en el mundo real.
+ * 
  * @author Brian Leonel Gonzalez
  *
  */
@@ -52,6 +54,7 @@ public class Noticia {
 	//---------------------SETTERS Y GETTERS-------------------------
 
 	/**
+	 * Permite devolver el valor correspodiente a la fecha de la noticia.
 	 * @return the fecha
 	 */
 	public LocalDate getFecha() {
@@ -59,6 +62,7 @@ public class Noticia {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "fecha".
 	 * @param fecha the fecha to set
 	 */
 	public void setFecha(LocalDate fecha) {
@@ -66,6 +70,7 @@ public class Noticia {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente al titulo de la noticia.
 	 * @return the titulo
 	 */
 	public String getTitulo() {
@@ -73,6 +78,7 @@ public class Noticia {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "titulo".
 	 * @param titulo the titulo to set
 	 */
 	public void setTitulo(String titulo) {
@@ -80,6 +86,7 @@ public class Noticia {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente al resumen de la noticia.
 	 * @return the resumen
 	 */
 	public String getResumen() {
@@ -87,9 +94,11 @@ public class Noticia {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "resumen".
 	 * @param resumen the resumen to set
 	 */
 	public void setResumen(String resumen) {
 		this.resumen = resumen;
 	}
+	
 }

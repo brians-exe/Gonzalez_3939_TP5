@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Gonzalez, Brian Leonel">
+        <title>Home</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="icon" href="img/icon-pag/icono1.jpg">
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1 class="title">
+                    <i class="fas fa-futbol"></i> &nbsp;
+                    Liga de fútbol profesional
+                </h1>
+            </header>
+            
+            <nav>
+            	<ul>
+            		<li> <a href="index.html" class="link-nav">Home</a> </li>
+            		<li> <a href="fixture.html" class="link-nav">Fixture y resultados</a> </li>
+            		<li> <a href="equipos.html" class="link-nav">Equipos</a> </li>
+            	</ul>
+                    
+                    
+                    <div id="welcome">
+                    	<h4 th:text = " 'Bienvenido! '+ ${usuario}"></h4>
+                    </div>
+            </nav>
+                
+            <section class="contenedor-section">
+                <h3 class="title-content">Noticias</h3>
+                <table class="table-notice">
+                    <tr>
+                        <td>
+                            <img src="img/noticias/transferencia-del-futbol-argentino-en-tiempos-de-coronavirus.jpg" alt="futbol en tiempos de coronavirus" class="img-notice">
+                            <p class="fecha">07/05/2020</p>
+                            <h5 class="notice">  Se concretó la primera transferencia del fútbol argentino en tiempos de coronavirus.</h5>
+                        </td>
+                        <td>
+                            <img src="img/noticias/infectologo-estima-regreso-futbo.jpg" alt="regreso del futbo" class="img-notice">
+                            <p class="fecha">03/05/2020</p>
+                            <h5 class="notice">  Infectólogo estima el retorno al fútbol oficial recién para diciembre.</h5>
+                        </td>
+                        <td>
+                            <img src="img/noticias/dura-derrota-de-river-en-la-altura-de-quito.jpg" alt="Dura derrota de River" class="img-notice">
+                            <p class="fecha">04/04/2020</p>
+                            <h5 class="notice">  Dura derrota de River en la altura de Quito.</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/noticias/nicolas-russo-sostiene-que-no-habra-descensos.jpg" alt="no habrá descensos" class="img-notice">
+                            <p class="fecha">04/04/2020</p>
+                            <h5 class="notice">  Nicolás Russo sostiene que no habrá descensos.</h5>
+                        </td>
+                        <td>
+                            <img src="img/noticias/se-viene-el-nuevo-futbol-argentino.jpg" alt="no habrá descensos" class="img-notice">
+                            <p class="fecha">06/05/2020</p>
+                            <h5 class="notice">  ¿Se viene el nuevo fútbol argentino?</h5>
+                        </td>
+                        <td>
+                            <img src="img/noticias/detalles-sobre-la-liga-profesional-del-futbol-argentino.jpg" alt="detalles sobre la Liga Profesional del fútbol argentino" class="img-notice">
+                            <p class="fecha">10/04/2020</p>
+                            <h5 class="notice">  Exclusivo: todos los detalles sobre la Liga Profesional del fútbol argentino que reemplazará a la Superliga</h5>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            
+            <aside class="auspiciantes">
+                <h3 class="title-content">Auspiciantes</h3>
+                <table class="table-ausp">
+                    <tr>
+                        <td>
+                            <img src="img/adidas-auspiciante.jpg" alt="adidas" class="images-ausp">
+                        </td>
+                        <td>
+                            <img src="img/bancomer.jpg" alt="bancomer" class="images-ausp">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/lenovo.png" alt="lenovo" class="images-ausp">
+                        </td>
+                        <td>
+                            <img src="img/musimundo.png" alt="musimundo" class="images-ausp">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/huawei.jpg" alt="huawei" class="images-ausp">
+                        </td>
+                        <td>
+                            <img src="img/toyota.jpg" alt="toyota" class="images-ausp">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/dia_logo_red.png" alt="dia" class="images-ausp">
+                        </td>
+                        <td>
+                            <img src="img/coca-cola.jpg" alt="coca cola" class="images-ausp">
+                        </td>
+                    </tr>
+                </table>
+            </aside>
+            
+            <footer>
+                <address class="direccion">
+                    Avda. Pedro Ortiz de Zárate N°455 - Tel 388 4789555
+                </address>
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com/" class="icon-red fb-icon" target="_blank">
+                        <i class="fab fa-facebook-square iconos"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="icon-red ig-icon" target="_blank">
+                        <i class="fab fa-instagram iconos"></i>
+                    </a>
+                    <a href="https://twitter.com/" class="icon-red tw-icon" target="_blank">
+                        <i class="fab fa-twitter iconos"></i>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

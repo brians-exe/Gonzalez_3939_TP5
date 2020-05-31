@@ -8,6 +8,8 @@ import java.time.LocalDate;
 import org.springframework.stereotype.Component;
 
 /**
+ * Clase que permite representar a un objeto de tipo usuario en el mundo real.
+ * 
  * @author Brian Leonel Gonzalez
  *
  */
@@ -84,6 +86,7 @@ public class Usuario {
 	//---------------------SETTERS Y GETTERS-------------------------
 	
 	/**
+	 * Permite devolver el valor correspodiente al id del usuario.
 	 * @return the id
 	 */
 	public long getId() {
@@ -91,6 +94,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "id".
 	 * @param id the id to set
 	 */
 	public void setId(long id) {
@@ -98,6 +102,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente al nombre del usuario.
 	 * @return the nombre
 	 */
 	public String getNombre() {
@@ -105,6 +110,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "nombre".
 	 * @param nombre the nombre to set
 	 */
 	public void setNombre(String nombre) {
@@ -112,6 +118,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente al apellido del usuario.
 	 * @return the apellido
 	 */
 	public String getApellido() {
@@ -119,6 +126,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "apellido".
 	 * @param apellido the apellido to set
 	 */
 	public void setApellido(String apellido) {
@@ -126,6 +134,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente a la fecha de nacimiento del usuario.
 	 * @return the fechaNacimiento
 	 */
 	public LocalDate getFechaNacimiento() {
@@ -133,6 +142,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "fechaNacimiento".
 	 * @param fechaNacimiento the fechaNacimiento to set
 	 */
 	public void setFechaNacimiento(LocalDate fechaNacimiento) {
@@ -140,6 +150,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente a la direccion del usuario.
 	 * @return the direccion
 	 */
 	public String getDireccion() {
@@ -147,6 +158,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "direccion".
 	 * @param direccion the direccion to set
 	 */
 	public void setDireccion(String direccion) {
@@ -154,6 +166,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente al dni del usuario.
 	 * @return the dni
 	 */
 	public long getDni() {
@@ -161,6 +174,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "dni".
 	 * @param dni the dni to set
 	 */
 	public void setDni(long dni) {
@@ -168,6 +182,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente a la fecha del alta del usuario.
 	 * @return the fechaAlta
 	 */
 	public LocalDate getFechaAlta() {
@@ -175,6 +190,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "fechaAlta".
 	 * @param fechaAlta the fechaAlta to set
 	 */
 	public void setFechaAlta(LocalDate fechaAlta) {
@@ -182,6 +198,8 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente al tipo de usuario.
+	 * Pueden ser: SOCIO, ADMIN, CONSULTOR.
 	 * @return the tipo
 	 */
 	public String getTipo() {
@@ -189,6 +207,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "tipo".
 	 * @param tipo the tipo to set
 	 */
 	public void setTipo(String tipo) {
@@ -196,6 +215,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente a la contraseña del usuario.
 	 * @return the password
 	 */
 	public String getPassword() {
@@ -203,6 +223,7 @@ public class Usuario {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "password".
 	 * @param password the password to set
 	 */
 	public void setPassword(String password) {

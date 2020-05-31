@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
+ * Clase que permite representar a un objeto de tipo cuota en el mundo real.
+ * 
  * @author Brian Leonel Gonzalez
  *
  */
@@ -69,13 +71,15 @@ public class Cuota {
 	//---------------------SETTERS Y GETTERS-------------------------
 
 	/**
-	 * @return the id
+	 * Permite devolver el valor correspodiente al id.
+	 * @return el id
 	 */
 	public long getId() {
 		return id;
 	}
 
 	/**
+	 * Permite establecer un valor del atributo "id" de la clase.
 	 * @param id the id to set
 	 */
 	public void setId(long id) {
@@ -83,13 +87,15 @@ public class Cuota {
 	}
 
 	/**
-	 * @return the fechaPago
+	 * Permite devolver el valor correspodiente a la fecha de pago.
+	 * @return fechaPago la fecha de pago
 	 */
 	public LocalDate getFechaPago() {
 		return fechaPago;
 	}
 
 	/**
+	 * Permite establecer un valor del atributo "fechaPago" de la clase.
 	 * @param fechaPago the fechaPago to set
 	 */
 	public void setFechaPago(LocalDate fechaPago) {
@@ -97,6 +103,7 @@ public class Cuota {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente al periodo.
 	 * @return the periodo
 	 */
 	public String getPeriodo() {
@@ -104,6 +111,7 @@ public class Cuota {
 	}
 
 	/**
+	 * Permite establecer un valor del atributo "periodo" de la clase.
 	 * @param periodo the periodo to set
 	 */
 	public void setPeriodo(String periodo) {
@@ -111,6 +119,7 @@ public class Cuota {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente al monto a pagar.
 	 * @return the monto
 	 */
 	public double getMonto() {
@@ -118,6 +127,7 @@ public class Cuota {
 	}
 
 	/**
+	 * Permite establecer un valor del atributo "monto" de la clase.
 	 * @param monto the monto to set
 	 */
 	public void setMonto(double monto) {
@@ -125,6 +135,10 @@ public class Cuota {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente al estado del pago.
+	 * Puede ser: 
+	 * 				PAGADO - Si se pagó
+	 * 				DEUDOR - Si no pagó
 	 * @return the estado
 	 */
 	public String getEstado() {
@@ -132,6 +146,10 @@ public class Cuota {
 	}
 
 	/**
+	 * Permite establecer un valor del atributo "estado" de la clase.
+	 * Puede ser: 
+	 * 				PAGADO - Si se pagó
+	 * 				DEUDOR - Si no pagó
 	 * @param estado the estado to set
 	 */
 	public void setEstado(String estado) {
@@ -139,6 +157,7 @@ public class Cuota {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente a usuario.
 	 * @return the usuario
 	 */
 	public Usuario getUsuario() {
@@ -146,6 +165,7 @@ public class Cuota {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "usuario".
 	 * @param usuario the usuario to set
 	 */
 	public void setUsuario(Usuario usuario) {

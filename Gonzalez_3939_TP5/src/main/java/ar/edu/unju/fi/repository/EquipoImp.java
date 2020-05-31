@@ -12,6 +12,8 @@ import ar.edu.unju.fi.Gonzalez3939Tp5Application;
 import ar.edu.unju.fi.model.Equipo;
 
 /**
+ * Clase que representa la implementacion de la interfaz IEquipo.
+ * 
  * @author Brian Leonel Gonzalez
  *
  */

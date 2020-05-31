@@ -8,6 +8,8 @@ import java.time.LocalDate;
 import org.springframework.stereotype.Component;
 
 /**
+ * Clase que permite representar a un objeto de tipo Estadio en el mundo real.
+ * 
  * @author Brian Leonel Gonzalez
  *
  */
@@ -62,6 +64,7 @@ public class Estadio {
 	//---------------------SETTERS Y GETTERS-------------------------
 
 	/**
+	 * Permite devolver el valor correspodiente a nombre del estadio.
 	 * @return the nombre
 	 */
 	public String getNombre() {
@@ -69,6 +72,7 @@ public class Estadio {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "nombre".
 	 * @param nombre the nombre to set
 	 */
 	public void setNombre(String nombre) {
@@ -76,6 +80,7 @@ public class Estadio {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente a la fecha de fundación del estadio.
 	 * @return the fechaFundacion
 	 */
 	public LocalDate getFechaFundacion() {
@@ -83,6 +88,7 @@ public class Estadio {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "fechaFundacion".
 	 * @param fechaFundacion the fechaFundacion to set
 	 */
 	public void setFechaFundacion(LocalDate fechaFundacion) {
@@ -90,6 +96,7 @@ public class Estadio {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente a la ciudad en la que se encuentra el estadio.
 	 * @return the ciudad
 	 */
 	public String getCiudad() {
@@ -97,6 +104,7 @@ public class Estadio {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "ciudad".
 	 * @param ciudad the ciudad to set
 	 */
 	public void setCiudad(String ciudad) {
@@ -104,6 +112,7 @@ public class Estadio {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente a la capacidad del estadio.
 	 * @return the capacidad
 	 */
 	public int getCapacidad() {
@@ -111,6 +120,7 @@ public class Estadio {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "capacidad".
 	 * @param capacidad the capacidad to set
 	 */
 	public void setCapacidad(int capacidad) {
@@ -118,6 +128,7 @@ public class Estadio {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente a la dirección del estadio.
 	 * @return the direccion
 	 */
 	public String getDireccion() {
@@ -125,6 +136,7 @@ public class Estadio {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "direccion".
 	 * @param direccion the direccion to set
 	 */
 	public void setDireccion(String direccion) {

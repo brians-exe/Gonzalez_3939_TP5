@@ -1,0 +1,274 @@
+
+
+*{
+    font-family: 'Rajdhani', sans-serif;
+    /*
+    border-style: solid;
+    border-width: 1px
+    */
+    
+}
+body{
+    background: #e5e5e5;
+}
+/* __________________________ HEADER ______________________________ */
+header{
+    background: #0b132b;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid #000 6px
+}
+.title{
+    width: 80%;
+    height: 100%;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+/*___________________________ NAV _________________________________*/
+nav{
+    background: #2582ca;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /*
+    justify-content: center;*/
+    align-items: center;
+}
+
+nav ul li{
+	display: inline-block;
+}
+.link-nav{
+    display: inline-block;
+    margin: 20px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 5px 30px;
+    text-decoration-line: none;
+}
+.link-nav:hover{
+    background: #bce3fa;
+    text-decoration-line: underline;
+    cursor: pointer;
+    border-radius: 3px;
+    color: black;
+    font-weight: 700;
+}
+#welcome{
+	color: #fff;
+	font-size: 1.2em;
+	width: 50%;
+	text-align: right;
+}
+
+/*_______________________________ SECTION _____________________________________*/
+.contenedor-section{
+    float: left;
+    width: 70vw;
+    height: 22em;
+    padding: 1em;
+    overflow-y: scroll;
+    margin: 10px auto;
+    background: #c6def1;
+    /*#98c1d9*/
+}
+
+.table-notice{
+    width: 100%;
+    border-spacing: 30px;
+}
+.table-notice tr{
+    width: 100%;
+    height: 150px
+}
+.table-notice tr td{
+    width: 30%;
+    height: 300px;
+    padding: 15px 15px;
+    background: #edf6f9;
+    /* box-shadow: diferenciaHorizontal diferenciaVertical desenfoque amplitud color */
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.16), 0px 0px 10px 2px rgba(0,0,0,0.23);
+}
+.table-notice tr td:hover{
+    background: #e5f0ff;
+    box-shadow: 0px 0px 5px 2px #0077b6;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.img-notice{
+    width: 100%;
+    height: 70%;
+}
+.notice{
+    width: 100%;
+    height: 25%;
+    text-align: justify;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.fecha{
+    text-align: right;
+    font-style: italic;
+    margin: 3px 0px;
+    font-size: 15px
+}
+.cont-noticia{
+    padding: 10px
+}
+
+/* _________________________________ ASSIDE ______________________________________*/
+.auspiciantes{
+    float: right;
+    width: 20vw;
+    height: 22em;
+    padding: 1em;
+    margin: 10px auto;
+    background: #c6def1;
+}
+
+.table-ausp{
+    width: 100%;
+    border-spacing: 0;
+}
+.table-ausp tr td{
+    width: 50%;
+    height: 70px
+}
+
+.images-ausp{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*______________________ TITULOS _______________________________*/
+
+.title-content{
+    margin: 5px 5px 25px 5px;
+    text-align: center;
+    background: #7bc0eb;
+    text-transform: uppercase;
+    padding: 3px 3px;
+    font-size: 20px
+}
+
+/*___________________________________FOOTER______________________________*/
+footer{
+    width: 100%;
+    height: 40px;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0b132b
+}
+.direccion{
+    color: aliceblue;
+    padding: 0 6px;
+    font-size: 95%
+}
+.redes-sociales{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 20px
+}
+.icon-red{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e5e5e5;
+    text-decoration-line: none;
+    border-radius: 2px;
+}
+.iconos{
+    color: #0b132b;
+}
+.fb-icon:hover{
+    background: #0077b6;
+}
+.ig-icon:hover{
+    background: #9b5de5;
+}
+.tw-icon:hover{
+    background: #00a8e8;
+}
+.iconos:hover{
+    color: white;
+}
+
+
+/*_______________TABLAS FIXTURE EQUIPOS_____________________*/
+
+.fixture{
+    width: 100%;
+    border-spacing: 0;
+}
+/*______________________________ PAG FIXTURE____________________________________*/
+.encabezado th{
+    background: #555b6e;
+    color: aliceblue;
+    padding: 5px;
+}
+.contenido-tabla{
+    width: 100%;
+    background: #faf9f9;
+}
+.contenido-tabla td{
+    width: 14.28%;
+    height: 50px;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.img-equipo{
+    width: 25%;
+    margin: 0;
+}
+.contenido-tabla:hover{
+    background: #dee2ff;
+}
+/*_______________________________________PAG EQUIPOS___________________________*/
+.equipos{
+    width: 100%;
+    border-spacing: 0;
+}
+.club{
+    width: 30%;
+    text-align: center
+}
+.title-equipo{
+    font-size: 100%;
+    margin: 10px;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.p-descrip{
+    margin: 20px;
+    font-size: 97%;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 22px
+}
+.club-image{
+    width: 70%;
+    margin: 5px;
+}
+.content-tr{
+    background: #ebf2fa
+}

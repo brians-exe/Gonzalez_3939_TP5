@@ -12,6 +12,8 @@ import ar.edu.unju.fi.Gonzalez3939Tp5Application;
 import ar.edu.unju.fi.model.Noticia;
 
 /**
+ * Clase que representa la implementacion de la interfaz INoticia.
+ * 
  * @author Brian Leonel Gonzalez
  *
  */

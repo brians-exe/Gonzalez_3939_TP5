@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
+ * Clase que permite representar a un objeto de tipo equipo en el mundo real.
+ * 
  * @author Brian Leonel Gonzalez
  *
  */
@@ -46,6 +48,7 @@ public class Equipo {
 	//---------------------SETTERS Y GETTERS-------------------------
 	
 	/**
+	 * Permite devolver el valor correspodiente a nombre del equipo.
 	 * @return the nombre
 	 */
 	public String getNombre() {
@@ -53,6 +56,7 @@ public class Equipo {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "nombre".
 	 * @param nombre the nombre to set
 	 */
 	public void setNombre(String nombre) {
@@ -60,6 +64,7 @@ public class Equipo {
 	}
 
 	/**
+	 * Permite devolver el valor correspodiente a estadio del equipo.
 	 * @return the estadio
 	 */
 	public Estadio getEstadio() {
@@ -67,9 +72,11 @@ public class Equipo {
 	}
 
 	/**
+	 * Permite establecer el valor correspondiente al atributo "estadio".
 	 * @param estadio the estadio to set
 	 */
 	public void setEstadio(Estadio estadio) {
 		this.estadio = estadio;
 	}
+	
 }

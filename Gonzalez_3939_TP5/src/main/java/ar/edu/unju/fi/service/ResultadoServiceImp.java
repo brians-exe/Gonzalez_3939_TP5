@@ -10,6 +10,8 @@ import ar.edu.unju.fi.model.Resultado;
 import ar.edu.unju.fi.repository.IResultado;
 
 /**
+ * Clase que representa la implementacion de la interfaz IResultadoService
+ * 
  * @author Brian Leonel Gonzalez
  *
  */

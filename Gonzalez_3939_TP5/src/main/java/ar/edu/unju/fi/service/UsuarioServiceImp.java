@@ -10,6 +10,8 @@ import ar.edu.unju.fi.model.Usuario;
 import ar.edu.unju.fi.repository.IUsuario;
 
 /**
+ * Clase que representa la implementacion de la interfaz IUsuarioService
+ * 
  * @author Brian Leonel Gonzalez
  *
  */

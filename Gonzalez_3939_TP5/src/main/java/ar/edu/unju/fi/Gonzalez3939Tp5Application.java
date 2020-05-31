@@ -20,6 +20,13 @@ import ar.edu.unju.fi.service.INoticiaService;
 import ar.edu.unju.fi.service.IResutadoService;
 import ar.edu.unju.fi.service.IUsuarioService;
 
+/**
+ * Permite iniciar la aplicacion de Spring Tools.
+ * 
+ * @author Brian Leonel Gonzalez
+ * @version 1.0
+ */
+
 @SpringBootApplication
 public class Gonzalez3939Tp5Application implements CommandLineRunner{
 	
@@ -105,12 +112,20 @@ public class Gonzalez3939Tp5Application implements CommandLineRunner{
 	@Autowired
 	Resultado resultado;
 
+	/**
+	 * Inicia el Programa.
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(Gonzalez3939Tp5Application.class, args);
 	}
 
+	/**
+	 * Metodo sobreescrito.
+	 */
 	@Override
 	public void run(String... args) throws Exception {
+		
 		// Inicializar las variables de objeto Usuario.
 		usuario.setApellido("Perez");
 		usuario.setDireccion("Avda. Mitre 256");

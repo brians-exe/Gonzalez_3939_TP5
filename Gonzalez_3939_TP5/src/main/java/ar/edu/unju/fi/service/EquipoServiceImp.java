@@ -10,6 +10,7 @@ import ar.edu.unju.fi.model.Equipo;
 import ar.edu.unju.fi.repository.IEquipo;
 
 /**
+ * Clase que representa la implementacion de la interfaz IEquuipoService
  * @author Brian Leonel Gonzalez
  *
  */

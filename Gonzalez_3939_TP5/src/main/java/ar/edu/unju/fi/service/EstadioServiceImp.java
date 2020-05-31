@@ -10,6 +10,8 @@ import ar.edu.unju.fi.model.Estadio;
 import ar.edu.unju.fi.repository.IEstadio;
 
 /**
+ * Clase que representa la implementacion de la interfaz IEstadioService
+ * 
  * @author Brian Leonel Gonzalez
  *
  */

@@ -10,6 +10,8 @@ import ar.edu.unju.fi.model.Noticia;
 import ar.edu.unju.fi.repository.INoticia;
 
 /**
+ * Clase que representa la implementacion de la interfaz INoticiaService
+ * 
  * @author Brian Leonel Gonzalez
  *
  */

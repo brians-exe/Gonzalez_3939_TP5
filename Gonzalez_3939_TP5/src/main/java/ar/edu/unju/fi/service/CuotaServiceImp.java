@@ -10,6 +10,8 @@ import ar.edu.unju.fi.model.Cuota;
 import ar.edu.unju.fi.repository.ICuota;
 
 /**
+ * Clase que representa la implementacion de la interfaz ICuotaService.
+ * 
  * @author Brian Leonel Gonzalez
  *
  */
